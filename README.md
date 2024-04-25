@@ -11,7 +11,7 @@ HTML 공부
 </html>
 
 ### 시맨틱
-[!시맨틱](./day04_html/image/시맨틱.jpg)
+[!시맨틱](https://github.com/GangGnagGnag/HTML/blob/main/day04_html/image/%EC%8B%9C%EB%A7%A8%ED%8B%B1.jpg)
 
 #### 태그 성질에 따른분류
 1. 블록요소 태그
