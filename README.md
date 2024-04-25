@@ -2,6 +2,7 @@
 HTML 공부
 
 - 기본적인 틀
+```html
 <html>
     <head>
         <title></title>
@@ -9,6 +10,7 @@ HTML 공부
     <body>
     </body>
 </html>
+```
 
 ### 시맨틱
 ![시맨틱](https://github.com/GangGnagGnag/HTML/blob/main/image/시맨틱.jpg)
