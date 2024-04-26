@@ -14,22 +14,22 @@ HTML 공부
 
 ### 타입 종류
 - type 속성은 입력양식의 종류를 지정한다.
-    type="text" : 텍스트 입력
-    type="password" : 비밀번호 입력
-    type="radio" : 라디오 버튼
-    type="checkbox" : 체크박스
-    type="submit" : 전송 버튼
-    type="reset" : 초기화 버튼
-    type="button" : 버튼
-    type="file" : 파일 업로드
-    type="hidden" : 숨겨진 입력
-    type="image" : 이미지 버튼
-    type="color" : 색상 선택
-    type="date" : 날짜 선택
-    type="email" : 이메일 입력
-    type="number" : 숫자 입력
-    type="range" : 범위 선택
-    type="search" : 검색어 입력
+- type="text" : 텍스트 입력
+- type="password" : 비밀번호 입력
+- type="radio" : 라디오 버튼
+- type="checkbox" : 체크박스
+- type="submit" : 전송 버튼
+- type="reset" : 초기화 버튼
+- type="button" : 버튼
+- type="file" : 파일 업로드
+- type="hidden" : 숨겨진 입력
+- type="image" : 이미지 버튼
+- type="color" : 색상 선택
+- type="date" : 날짜 선택
+- type="email" : 이메일 입력
+- type="number" : 숫자 입력
+- type="range" : 범위 선택
+- type="search" : 검색어 입력
 
 ### 시맨틱
 ![시맨틱](https://github.com/GangGnagGnag/HTML/blob/main/image/시맨틱.jpg)
