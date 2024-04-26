@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <style>
+        li{
+            list-style: none;
+            float: left;
+            padding: 15px;
+            /* 간격을 벌려줌 */
+        }
+        
+        li:nth-child(2n) {
+            background-color: #00ff00;
+        }
+
+        li:nth-child(2n+1) {
+            background-color: #ff0000;
+        }
+
+        li:first-child{
+            border-radius: 10px 0 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>첫 번째</li>
+        <li>두 번째</li>
+        <li>세 번째</li>
+        <li>네 번째</li>
+        <li>다섯 번째</li>
+        <li>여섯 번째</li>
+        <li>일곱 번째</li>
+    </ul>
+</body>
+
+</html>
+<!-- 
+    구조선택자: 특정 위치에 있는 태그를 선택할 때 사용
+    :nth-child(수열) 형제관계에서 앞에서 수열번째 해당하는 태그선택
+ -->

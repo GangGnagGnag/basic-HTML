@@ -12,6 +12,25 @@ HTML 공부
 </html>
 ```
 
+### 타입 종류
+- type 속성은 입력양식의 종류를 지정한다.
+    type="text" : 텍스트 입력
+    type="password" : 비밀번호 입력
+    type="radio" : 라디오 버튼
+    type="checkbox" : 체크박스
+    type="submit" : 전송 버튼
+    type="reset" : 초기화 버튼
+    type="button" : 버튼
+    type="file" : 파일 업로드
+    type="hidden" : 숨겨진 입력
+    type="image" : 이미지 버튼
+    type="color" : 색상 선택
+    type="date" : 날짜 선택
+    type="email" : 이메일 입력
+    type="number" : 숫자 입력
+    type="range" : 범위 선택
+    type="search" : 검색어 입력
+
 ### 시맨틱
 ![시맨틱](https://github.com/GangGnagGnag/HTML/blob/main/image/시맨틱.jpg)
 
@@ -36,3 +55,13 @@ HTML 공부
 - 태그 선택자: 태그
 - ID 선택자: #id
 - 클래스 선택자: . 클래스이름
+- 속성 선택지: 선택자[속성 = 값]
+- 자식선택자: > 표시로 자식관계를 나타낸다
+- 반응 선택자: 사용자의 반응으로 hove와 active 상태가 만들어진다
+- 상태 선택자: 입력 양식의 상태를 선택할 때
+    :checked - 체크 상태인 input 태그 선택
+    :focus - 포커스를 맞춘 input 태그 선택
+    :enabled - 사용 가능한 input 태그 선택
+    :disabled - 사용 불가능한 input 태그 선택
+- 구조선택자: 특정 위치에 있는 태그를 선택할 때 사용
+    :nth-child(수열) 형제관계에서 앞에서 수열번째 해당하는 태그선택

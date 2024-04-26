@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <style>
+        table > tbody > tr > th {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <th>이름</th>
+            <th>지역</th>
+        </tr>
+        <tr>
+            <td>홍길동</td>
+            <td>부산 남구</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+
+<!-- 
+    <table>태그는 주의해야한다
+    개발자(F12) 모드에서 확인하면<table>태그에 <tbody>태그가 자동으로 추가되었다.
+    따라서 table > tbody > tr > th 이렇게 작성을 해줘야 자손을 찾아가는 경로가 완성이되어
+    색을 입힐수 있다.
+ -->

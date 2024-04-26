@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>상태 선택자</title>
+    <style>
+        input:enabled{background:white;}
+        input:disabled{background:gray;}
+    </style>
+</head>
+
+<body>
+    <h1>사용 가능</h1>
+    <input value="가능">
+    <h1>사용 불가능</h1>
+    <input disabled="disabled" value="불가능">
+
+</body>
+
+</html>
+<!-- 
+    상태 선택자: 입력 양식의 상태를 선택할 때
+    :checked - 체크 상태인 input 태그 선택
+    :focus - 포커스를 맞춘 input 태그 선택
+    :enabled - 사용 가능한 input 태그 선택
+-->
+:disabled - 사용 불가능한 input 태그 선택
