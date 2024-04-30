@@ -80,3 +80,8 @@ HTML 공부
 3. #id 로 지정한 속성
 4. 태그로 지정한 속성
 5. 상위 객체에 의해 상속된 속성
+
+## position
+- 절대좌표: absolute, fixed
+- 상대좌표: static, relative
+- top-bottom-left-right
