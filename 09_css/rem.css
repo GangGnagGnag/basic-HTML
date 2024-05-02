@@ -1,0 +1,4 @@
+.level1{font-size: 32px;} /*기본 픽셀 크기는 16픽셀인데 2배가 되므로 32*/
+.level2{font-size: 32px;} /* 64 */
+.level3{font-size: 32px;} /* 128 */
+.level4{font-size: 32px;} /* 256 */
