@@ -99,4 +99,122 @@ HTML 공부
 
 - 고전적인 방법의 layout은 Position, float, table
 - flex, grid
+## Animation
+
+```css
+animation-name: move;
+```
+
+- 애니메이션 이름(키프레임명)
+- 시간값, 회수값, 방향값, 정지값을 적용하는 객체에 넣어야 함
+```css
+animation-duration: 1s;
+```
+
+- 애니매이션 시간값
+```css
+animation-iteration-count: 4;
+animation-iteration-count: 반복횟수;
+```
+
+- 애니메이션 반복횟수 값
+- infinite계속반복
+```css
+animation-direction: alternate;
+normal:form~to
+alternate:form~to~form
+```
+
+- reversnormal:normal과 반대,거꾸로to~form
+- alternate-reverse:alternate와 반대 to~from~to 주로 alternate로 작업
+```css
+animation-delay: 1s;
+```
+
+- 애니매이션 지연시간
+```css
+animation-timing-function: ease-in;
+```
+
+- 애니메이션 가속도 형태
+```css
+animation-fill-mode: forwards;
+```
+
+- 마지막 애니메이션에서 정지
+
+키프레임 기본틀
+
+```css
+@keyframes 애니매이션 이름{
+				
+				form{
+					시작위치
+				}
+				50%{
+					중간 위치
+				}
+				to{
+					도착 위치
+				}
+			}
+```
+> animation : 실행하는 애니메이션 속성을 지정하는 단계 @keyframes 애니메이션의 스타일을 구체적으로 제어
+
+    ```html
+    <!doctype html>
+    
+    <html>
+    	<head>
+    		<title>Page Title</title>
+    		<meta charset="UTF-8">
+    		<meta name="viewport" content="initial-scale=1.0">
+    		
+    		<style>
+    			*{padding: 0; margin: 0;}
+    			#box{
+    				width: 300px;
+    				height: 300px;
+    				background-color: cornflowerblue;
+    				animation-name: move;
+    				animation-duration: 1s;
+    				animation-iteration-count: 4;
+    				animation-direction: alternate;
+    				animation-timing-function: ease-in;
+    				animation-fill-mode: forwards;
+    			}
+    			@keyframes move{
+    				from{
+    					transform: translate(0,0);
+    				}
+    				to{
+    					transform: translate(500px,0);
+    				}
+    			}
+    		</style>
+    	</head>
+    	<body>
+    		<div id="box"></div>
+    	</body>
+    </html>
+    ```
+
+## 3D
+
+transform의 3d와 관련한 스타일
+3d가 적용되는 객체의 "부모"에게 지정함
+
+```css
+transform-style: preserve-3d;
+```
+
+- 3D 형태로 변형
+
+```css
+perspective: 1000px;
+```
+
+- 원근감 적용
+    - 단위가 높을수록 멀리, 작게 보임
+    - 단위가 클수록 가까이, 크게 보임
 
