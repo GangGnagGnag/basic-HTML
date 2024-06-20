@@ -219,4 +219,5 @@ perspective: 1000px;
     - 단위가 클수록 가까이, 크게 보임
 
 # 만들어본 HTML 활용 
-![시맨틱](https://github.com/GangGnagGnag/HTML/blob/main/image/사진안박스.mp4)
+
+<img src="https://github.com/GangGnagGnag/basic-HTML/blob/main/image/%EC%83%81%EB%8B%A8%EB%B0%94.mp4">
