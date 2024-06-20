@@ -218,7 +218,7 @@ perspective: 1000px;
     - 단위가 높을수록 멀리, 작게 보임
     - 단위가 클수록 가까이, 크게 보임
 
-# 만들어본 HTML 활용 
+# HTML ,css 활용 
 
 ![상단바](https://github.com/GangGnagGnag/basic-HTML/assets/159672857/bb130541-5da6-4fcf-b246-27fbe4a9dac9)
 
