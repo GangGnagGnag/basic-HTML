@@ -219,4 +219,15 @@ perspective: 1000px;
     - 단위가 클수록 가까이, 크게 보임
 
 # 만들어본 HTML 활용 
+
+![상단바](https://github.com/GangGnagGnag/basic-HTML/assets/159672857/bb130541-5da6-4fcf-b246-27fbe4a9dac9)
+
+![테두리라인](https://github.com/GangGnagGnag/basic-HTML/assets/159672857/24fc4c26-76f5-4b7e-bfb3-8a27b622b6d6)
+
+![지그제그](https://github.com/GangGnagGnag/basic-HTML/assets/159672857/da0e6e98-d7ab-4bcb-90c2-b84283a03a0b)
+
+![주사위](https://github.com/GangGnagGnag/basic-HTML/assets/159672857/68adabbb-ba3e-43c2-baf8-6ab1e789dceb)
+
 ![사진안박스](https://github.com/GangGnagGnag/basic-HTML/assets/159672857/fbf4d920-c498-4f6f-99b0-97111c276208)
+
+![아더에러사이트](https://github.com/GangGnagGnag/basic-HTML/assets/159672857/286a1d74-f9b8-407a-8d7a-105105b1ffcc)
