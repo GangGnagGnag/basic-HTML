@@ -218,3 +218,5 @@ perspective: 1000px;
     - 단위가 높을수록 멀리, 작게 보임
     - 단위가 클수록 가까이, 크게 보임
 
+# 만들어본 HTML 활용 
+![시맨틱](https://github.com/GangGnagGnag/HTML/blob/main/image/사진안박스.mp4)
