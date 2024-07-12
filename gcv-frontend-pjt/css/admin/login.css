@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 로그인 박스 */
+.login-container h2 {
+    font-size: 12px;
+    padding: 20px;
+    background-color: #718c5a;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 40px;
+}
+
+/* id, pw 입력 상자 */
+.id-box {
+    text-align: center;
+}
+
+.login-box{
+    text-align: center;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 65%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 로그인 체그박스 */
+.login-check{
+    width: 70%;
+    padding-top: 10%;
+    padding-bottom: 5%;;
+    margin: auto; 
+}
+
+/* 로그인 버튼 */
+.login-container button {
+    width: 70%;
+    padding: 10px;
+    background-color: #718c5a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto; 
+}
+
+.login-container button:hover {
+    background-color: #607946;
+}
