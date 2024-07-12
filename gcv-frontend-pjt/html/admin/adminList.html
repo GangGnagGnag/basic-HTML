@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관리자 페이지</title>
+    <link rel="stylesheet" href="/gcv-frontend-pjt/css/admin/adminList.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li>관리자 조회</li>
+                <li>회원 조회</li>
+                <li>영화정보 관리</li>
+                <li>상영관리</li>
+                <li>메뉴5</li>
+                <li>메뉴6</li>
+            </ul>
+        </nav>
+        <main class="content">
+            <h2>회원조회</h2>
+            <div class="search-box">
+                <input type="text" placeholder="조회할 내용을 입력하세요.">
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>이름</th>
+                        <th>아이디</th>
+                        <th>등록일</th>
+                        <th>액션</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>홍길동</td>
+                        <td>Honggildong00</td>
+                        <td>2024.05.23</td>
+                        <td>
+                            <button class="edit-btn">수정</button>
+                            <button class="delete-btn">삭제</button>
+                        </td>
+                    </tr>
+                    <!-- 더 많은 행을 추가할 수 있습니다 -->
+                </tbody>
+            </table>
+            <div class="footer">
+                <span>전체 : 128개</span>
+                <div class="pagination">
+                    <span>&lt;</span>
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>&gt;</span>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
