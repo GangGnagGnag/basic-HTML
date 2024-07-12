@@ -27,7 +27,6 @@ body {
 
 .sidebar ul li {
     padding: 10px 20px;
-    cursor: pointer;
 }
 
 .sidebar ul li:hover {
@@ -36,8 +35,11 @@ body {
 
 .content {
     flex-grow: 1;
-    padding: 60px;
+    padding: 20px;
     background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
 }
 
 
