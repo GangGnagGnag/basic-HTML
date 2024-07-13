@@ -1,0 +1,58 @@
+/* 사이드바 스타일 */
+.sidebar {
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+/* 콘텐츠 스타일 */
+.content {
+    padding: 2rem;
+}
+
+/* 버튼 스타일 */
+.btn-outline-secondary {
+    color: black;
+}
+
+/* 버튼 마우스 호버시 */
+.btn-outline-secondary:hover {
+    background-color: #718c5a;
+    border-color: #718c5a;
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #718c5a;
+    color: white;
+}
+
+/* 페이지네이션 스타일 */
+.pagination .page-link {
+    color: black; 
+}
+
+.pagination .page-link:hover {
+    background-color: #718c5a;
+    border-color: #718c5a; 
+    color: white; 
+}
+
+.pagination .page-item.active .page-link {
+    background-color: black; 
+    border-color: black; 
+    color: white; 
+}

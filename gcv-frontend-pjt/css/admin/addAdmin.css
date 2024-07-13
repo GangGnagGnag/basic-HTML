@@ -1,16 +1,19 @@
+/* 기본 설정 */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
     height: 100vh;
-    background-color: white
+    background-color: white;
 }
 
+/* 컨테이너 설정 */
 .container {
     display: flex;
     width: 100%;
 }
 
+/* 사이드바 설정 */
 .sidebar {
     text-align: center;
     width: 200px;
@@ -32,6 +35,7 @@ body {
     background-color: #575757;
 }
 
+/* 컨텐츠 영역 설정 */
 .content {
     flex-grow: 1;
     padding: 20px;
@@ -41,8 +45,9 @@ body {
     margin: 20px;
 }
 
-.member-form{
-    border:  solid 1px #33333333;
+/* 멤버 폼 설정 */
+.member-form {
+    border: solid 1px #33333333;
     border-radius: 5px;
     padding: 2%;
 }
@@ -64,6 +69,7 @@ body {
     border-radius: 5px;
 }
 
+/* 버튼 설정 */
 button {
     width: 100px;
     padding: 10px;
