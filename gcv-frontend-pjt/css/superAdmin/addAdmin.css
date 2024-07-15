@@ -2,52 +2,41 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    display: flex;
-    height: 100vh;
     background-color: white;
+    height: 100%;
 }
 
-/* 컨테이너 설정 */
-.container {
-    display: flex;
-    width: 100%;
-}
-
-/* 사이드바 설정 */
+/* 사이드바 스타일 */
 .sidebar {
-    text-align: center;
-    width: 200px;
     background-color: #333;
     color: white;
-    padding-top: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sidebar ul li {
+.sidebar a {
+    color: white;
+    text-decoration: none;
     padding: 10px 20px;
 }
 
-.sidebar ul li:hover {
+.sidebar a:hover {
     background-color: #575757;
 }
 
-/* 컨텐츠 영역 설정 */
+/* 콘텐츠 영역 스타일 */
 .content {
-    flex-grow: 1;
-    padding: 20px;
+    margin-left: 200px; /* 사이드바 너비만큼 왼쪽 여백 */
+    padding: 2rem;
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin: 20px;
 }
 
 /* 멤버 폼 설정 */
 .member-form {
-    border: solid 1px #33333333;
     border-radius: 5px;
     padding: 2%;
 }
@@ -72,16 +61,15 @@ body {
 /* 버튼 설정 */
 button {
     width: 100px;
-    padding: 10px;
     margin: 20px auto 0 auto;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: block;
 }
 
-button:hover {
-    background-color: #45a049;
+.btn-outline-secondary {
+    color: black;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #718c5a;
+    border-color: #718c5a;
+    color: white;
 }

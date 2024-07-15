@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="/gcv-frontend-pjt/css/admin/movieList.css">
+    <link rel="stylesheet" href="/gcv-frontend-pjt/css/superAdmin/movieList.css">
     <title>영화목록</title>
 </head>
 
@@ -14,20 +14,20 @@
     <div class="container-fluid">
         <div class="row">
             <nav class="col-md-2 sidebar">
-                <h2 class="p-4">관리자 페이지</h2>
-                <a href="#">관리자 조회</a>
-                <a href="#">회원 조회</a>
-                <a href="#">영화정보 관리</a>
-                <a href="#">상영관리</a>
+                <h2 class="p-4">S 관리자 페이지</h2>
+                <a href="/gcv-frontend-pjt/html/superAdmin/adminList.html">관리자 조회</a>
+                <a href="/gcv-frontend-pjt/html/superAdmin/memberList.html">회원 조회</a>
+                <a href="/gcv-frontend-pjt/html/superAdmin/movieList.html">영화정보 관리</a>
+                <a href="/gcv-frontend-pjt/html/superAdmin/movieRegion.html">상영관리</a>
                 <a href="#">메뉴5</a>
                 <a href="#">메뉴6</a>
             </nav>
-            <main class="col-md-10 content">
+            <div class="col-md-10 content">
                 <h1 class="pb-4">영화정보조회</h1>
                 <div class="row mb-3">
                     <div class="col-md-12 d-flex justify-content-between">
                         <div class="input-group w-25">
-                            <input class="form-control" type="search" placeholder="내용을 입력하세요" aria-label="Search" required>
+                            <input class="form-control border-end-0 border-secondary type="search" placeholder="내용을 입력하세요" aria-label="Search" required>
                             <button class="btn btn-outline-secondary" type="button">검색</button>
                         </div>
                         <div class="btn-group">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <table class="table table-bordered">
-                    <thead>
+                    <thead class="table-light">
                         <tr>
                             <th>카테고리</th>
                             <th>제목</th>
@@ -82,7 +82,7 @@
                         </ul>
                     </nav>
                 </div>
-            </main>
+            </div>
         </div>
     </div>
 

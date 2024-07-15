@@ -1,0 +1,35 @@
+/* 사이드바 스타일 */
+.sidebar {
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+/* 콘텐츠 스타일 */
+.content {
+    padding: 2rem;
+}
+
+/* 버튼 스타일 */
+.btn-outline-secondary {
+    color: black;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #718c5a;
+    border-color: #718c5a;
+    color: white;
+}
