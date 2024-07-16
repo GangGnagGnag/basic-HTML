@@ -1,0 +1,36 @@
+/* 기본 설정 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* 로그인 컨테이너 */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.login-container h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* 입력 상자 */
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* 체크박스 */
+.form-check-label {
+    margin-left: 5px;
+}
+
+/* 로그인 버튼 */
+.login-container button {
+    border-radius: 5px;
+}

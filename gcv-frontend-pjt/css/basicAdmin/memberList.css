@@ -1,0 +1,63 @@
+/* 기본 설정 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    height: 100%;
+}
+
+/* 버튼 스타일 */
+.btn-outline-secondary {
+    color: black;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #718c5a;
+    border-color: #718c5a;
+    color: white;
+}
+
+
+/* 사이드바 스타일 */
+.sidebar {
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+/* 콘텐츠 영역 스타일 */
+.content {
+    margin-left: 200px; /* 사이드바 너비만큼 왼쪽 여백 */
+    padding: 2rem;
+}
+
+
+/* 페이지네이션 스타일 */
+.pagination .page-link {
+    color: black; 
+}
+
+.pagination .page-link:hover {
+    background-color: #718c5a;
+    border-color: #718c5a; 
+    color: white; 
+}
+
+.pagination .page-item.active .page-link {
+    background-color: black; 
+    border-color: black; 
+    color: white; 
+}
+
